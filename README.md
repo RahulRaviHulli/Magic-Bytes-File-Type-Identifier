@@ -15,7 +15,7 @@ The **Magic Bytes and File Types Identifier** is a Python script that allows use
 
 **Clone the Repository**:
 ```bash
-git clone https://github.com/yourusername/magic-bytes-file-type-identifier.git
+git clone [https://github.com/yourusername/magic-bytes-file-type-identifier.git](https://github.com/RahulRaviHulli/Magic-Bytes-File-Type-Identifier.git)
 
 cd magic-bytes-file-type-identifier
 ```
