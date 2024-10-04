@@ -19,7 +19,7 @@ git clone https://github.com/yourusername/magic-bytes-file-type-identifier.git
 
 cd magic-bytes-file-type-identifier
 ```
-**Usage**:
+## Usage:
 Run the script using Python 3.x:
 
 Identify File Type Using Magic Bytes:
