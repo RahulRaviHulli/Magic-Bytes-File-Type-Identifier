@@ -1,0 +1,60 @@
+# Magic Bytes and File Types
+
+FFD8FF      JPEG
+89504E47    PNG
+47494638    GIF
+25504446    PDF
+504B0304    ZIP
+504B0506    ZIP
+504B0708    ZIP
+377ABCAF    7-Zip
+52617221    RAR
+1F8B08      GZIP
+424D        BMP
+4D5A        EXE
+7F454C46    ELF
+FFD9        JPEG (End of Image)
+D0CF11E0    OLE2 (Microsoft Office files)
+3C3F78      XML
+FFFE        UTF-16 LE BOM
+FEFF        UTF-16 BE BOM
+EFBBBF      UTF-8 BOM
+7B5C72656164 JSON
+4D546864    MIDI
+494433      MP3
+66747970    MP4
+52494646    WAV
+7B          TAR
+2E524172    RAR
+2E6D7034    MP4
+2E747874    TXT
+7B22        JSON
+6D6F646C    MOD (Module file)
+A0A0A0      RPM (Red Hat Package Manager)
+4D5A        COM (Command file)
+7F414D41    AMR
+7B5C7270    RTF
+4D53564C    MS Video (Windows Media)
+FFFB        MP3 (MPEG Layer III)
+4F646D65    OGG (Ogg Vorbis)
+494433      MP3 (ID3)
+FFD8        JPEG (Jfif)
+FFD0        JPEG (Exif)
+47494638    GIF89a
+52494646    AVI
+6D6F6F76    MOOV (QuickTime)
+C0DEFEED    HDF
+52494646    WAV (Waveform Audio)
+504B0304    ZIP (PKZIP)
+3C3F786D6C  XML
+E0E0E0      ISO (CD Image)
+C4 03 5A   ZLIB
+75736167    DNG (Digital Negative)
+41433130    AIF (Audio Interchange File Format)
+2E6D6620    M4A (MPEG 4 Audio)
+4D54 6864    MIDI
+3026B275   WMV (Windows Media Video)
+77 66 6C 61 FLV (Flash Video)
+534947    PNG (Portable Network Graphics)
+52494646  AVI (Audio Video Interleave)
+
