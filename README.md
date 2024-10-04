@@ -19,3 +19,19 @@ git clone https://github.com/yourusername/magic-bytes-file-type-identifier.git
 
 cd magic-bytes-file-type-identifier
 ```
+**Usage**:
+Run the script using Python 3.x:
+
+Identify File Type Using Magic Bytes:
+```bash
+python3 magic_bytes_file_type_identifier.py -m "FFD8FF"
+```
+
+Retrieve Magic Bytes for a File Type:
+
+```bash
+python3 magic_bytes_file_type_identifier.py -x "JPEG"
+```
+
+
+
