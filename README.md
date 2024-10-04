@@ -20,7 +20,7 @@ git clone https://github.com/yourusername/magic-bytes-file-type-identifier.git
 cd magic-bytes-file-type-identifier
 ```
 ## Usage:
-Run the script using Python 3.x:
+**Run the script using Python 3.x**:
 
 Identify File Type Using Magic Bytes:
 ```bash
@@ -33,5 +33,42 @@ Retrieve Magic Bytes for a File Type:
 python3 magic_bytes_file_type_identifier.py -x "JPEG"
 ```
 
+## Command Line Options:
+```bash
+-h, --help: Show help message and exit.
+-m MAGIC, --magic MAGIC: Pass magic bytes to get the corresponding file type.
+-x FILETYPE, --filetype FILETYPE: Pass a file type to get the associated magic bytes.
+```
+
+## Examples
+
+Identify File Type by Magic Bytes:
+```bash
+python3 magic_bytes_file_type_identifier.py -m "FFD8FF"
+
+Output:
+The magic bytes 'FFD8FF' correspond to the file type: jpeg
+```
+
+Get Magic Bytes for a File Type:
+```bash
+python3 magic_bytes_file_type_identifier.py -x "JPEG"
+Output:
+The file type 'jpeg' corresponds to the magic bytes: FFD8FF
+```
+
+Handle Unrecognized File Type:
+```bash
+python3 magic_bytes_file_type_identifier.py -x "JPG"
+Output:
+File type 'jpg' not recognized.
+Did you mean: jpeg?
+```
+
+## License
+This project is not licensed under any specific license. Feel free to use and modify it as needed.
+
+## Contributions
+Contributions are welcome! Please feel free to open issues or submit pull requests for improvements or additional file types.
 
 
